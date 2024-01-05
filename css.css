@@ -26,9 +26,10 @@
 ul{
     display: flex;
     list-style: none;
+    align-items: center;
     
 }
-ul li{
+ul li, .btn{
     margin: 20px;
     cursor: pointer;
     font-family: Open Sans;
@@ -38,16 +39,23 @@ ul li{
 
 .btn{
     cursor: pointer;
-    /* height: 30px; */
+   
     padding: 10px 25px;
     background-color: #FD6E0A;
-    
     color: #FFF8F3;
     border: none;
-    /* align-items: center;
-   margin-top: -5px;
-   position: absolute; */
+    margin: 0px;
 }
+
+.btn1{
+    cursor: pointer;
+    padding: 10px 25px;
+    /* background-color: #FD6E0A; */
+    color: #FD6E0A;
+    border: 2px solid #FD6E0A;
+    margin: 0px;
+}
+
 
 .container{
     display: flex;
